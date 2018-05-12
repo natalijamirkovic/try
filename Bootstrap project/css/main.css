@@ -1,0 +1,58 @@
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: white;
+  background: #2c3e50; }
+
+.bgcolor {
+  background: #18bc9c; }
+
+.nav-menu {
+  color: white;
+  margin: 0 0; }
+  .nav-menu p {
+    margin: 10px auto; }
+
+header {
+  margin-top: 56px;
+  color: white;
+  background: #18bc9c;
+  text-align: center; }
+
+h5 {
+  display: block;
+  margin: 20px auto; }
+
+main h1 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  margin: 30px auto; }
+
+.entry {
+  background: #18bc9c; }
+
+.entry-img {
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  top: 20px; }
+
+.images img {
+  margin-top: 20px;
+  display: block;
+  width: 100%; }
+
+.about {
+  color: white;
+  background: #18bc9c; }
+
+footer {
+  margin-top: 30px;
+  color: white;
+  background: #2c3e50; }
+
+/*# sourceMappingURL=main.css.map */

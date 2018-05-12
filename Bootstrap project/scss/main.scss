@@ -1,0 +1,79 @@
+@import"variables";
+@import"mixins";
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    @include color-and-bcg-color(white, #2c3e50);
+}
+
+
+.bgcolor{
+    background: #18bc9c;
+}
+
+.nav-menu {
+    color: white;
+    margin: 0 0; 
+    p{
+        margin: 10px auto;
+    }
+    }
+
+header {
+    margin-top: 56px;
+    @include color-and-bcg-color(white, #18bc9c);
+    text-align: center;
+}
+
+h5 {
+    display: block;
+    margin: 20px auto;
+}
+main h1 {
+    position: relative;
+    top:20px;
+    text-align: center;
+    margin: 30px auto;
+ }
+
+ main p {
+
+ }
+
+.entry {
+   background: $green-color;
+}
+.entry-img {
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    top: 20px;
+    
+}
+
+.images {
+    img {
+        margin-top:20px;
+        display: block;
+        width: 100%;
+    }
+}
+
+.about {
+    @include color-and-bcg-color(white, #18bc9c);
+}
+
+.find-out-more {
+    display: block;
+    
+}
+
+footer {
+    margin-top: 30px;
+    @include color-and-bcg-color(white, #2c3e50);
+}
+
