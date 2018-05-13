@@ -9,7 +9,7 @@
     right: 0;
     z-index: 1;
     @include color-and-bcg-color(white, #2c3e50);
-        
+
 }
 
 
@@ -45,6 +45,14 @@ h1 {
 .navbar-light .navbar-nav .nav-link.disabled {
     color:white;
 }
+
+.collapse.navbar-collapse {
+  @media only screen and (min-width: 992px) {
+    justify-content: flex-end;
+    flex-grow: 0;
+  }
+}
+
 .bgcolor{
     background: #18bc9c;
     border-color: #18bc9c;
@@ -52,7 +60,7 @@ h1 {
 
 .nav-menu {
     color: white;
-    margin: 0 0; 
+    margin: 0 0;
     p{
         margin: 10px auto;
     }
@@ -89,7 +97,7 @@ main h1 {
     margin: 20px auto;
     position: relative;
     top: 20px;
-    
+
 }
 
 .images {
@@ -102,7 +110,7 @@ main h1 {
 
 .about {
     @include color-and-bcg-color(white, #18bc9c);
-    
+
 }
 
 .find-out-more {
@@ -111,7 +119,7 @@ main h1 {
 
 .btn-outline-light {
     margin-bottom: 70px;
-    
+
 }
 
 footer {
@@ -164,7 +172,7 @@ footer {
 
 
 .icons {
-    
+
     display: inline-block;
     color: white;
     border: 1px solid white;
@@ -209,4 +217,3 @@ main h1 {
 @media only screen and (mix-width: 767px) {
     background-color: transparent;
 }
-    
